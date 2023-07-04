@@ -6,20 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-  handleSubmit(event: Event) {
-    event.preventDefault();
+  email!: string;
+  senha!: string;
 
-    const emailInput = document.getElementById('email') as HTMLInputElement;
-    const senhaInput = document.getElementById('senha') as HTMLInputElement;
-
+  handleSubmit() {
     const formData: FormInput = {
-      email: emailInput.value,
-      senha: senhaInput.value,
+      email: this.email,
+      senha: this.senha
     };
-
-    //formdata 
-
-    (document.getElementById('loginForm') as HTMLFormElement).reset();
+    //formdata
+    this.email = '';
+    this.senha = '';
   }
 }
 
