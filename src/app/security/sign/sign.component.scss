@@ -50,6 +50,18 @@
     margin-bottom: 20px;
   }
   
+  .img2{
+    position: absolute;
+    left: 790px;
+    top: 0;
+    width: 493px;
+    height: auto;
+    top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+  
+  }
+
   .form-control {
     border-radius: 8.078px;
     text-align: left;
@@ -84,6 +96,13 @@
       width: 120px;
       height: 52px;
     }
+    .img2 {
+      right: auto;
+      max-width: 100%;
+      position: relative;
+      top: 0;
+    }
+    
   
     .form-group {
       width: 50%;
@@ -107,6 +126,8 @@
       margin-left: auto;
     }
   
+    
+
     .form-group {
       width: 336px;
     }
