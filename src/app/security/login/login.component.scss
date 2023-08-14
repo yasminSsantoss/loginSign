@@ -59,6 +59,17 @@ margin: 0 auto;
 margin-bottom: 20px;
 }
 
+.img2{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
 .form-control {
 border-radius: 8.078px;
 border: none;
@@ -112,6 +123,13 @@ font-size: 14px;
 .img {
 width: 120px;
 height: 52px;
+}
+
+.img2 {
+  left: auto;
+  max-width: 100%;
+  position: relative;
+  top: 0;
 }
 
 .form-group {
